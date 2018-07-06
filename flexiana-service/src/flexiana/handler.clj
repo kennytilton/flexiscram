@@ -18,11 +18,5 @@
   (route/not-found "Invalid route toplevel."))
 
 (def app
-  (->
-    (wrap-defaults app-routes site-defaults)
-    wrap-json-response))
-
-;(def app
-;  (-> (handler/site app-routes)
-;    (wrap-json-body {:keywords? true})
-;    wrap-json-response))
+  (wrap-json-response
+    (wrap-defaults app-routes site-defaults)))

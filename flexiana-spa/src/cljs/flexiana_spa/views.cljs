@@ -36,25 +36,19 @@
                         :min-width "96px"}}
         prop-cap]
        [:input {:id           prop
-                :auto-focus   autofocus?
-
                 :style        {:width     "10em"
                                :font-size "1em"
                                :height    "1em"}
 
+                :auto-focus   autofocus?
                 :placeholder  "letters a-z"
-
-                :defaultValue (<sub [:prop-term prop])
-
+                :defaultValue "" ;; handy during development (<sub [:prop-term prop])
                 :list         (str prop-cap "-datalist")
 
                 :on-key-press #(when (= "Enter" (js->clj (.-key %)))
                                  (>evt [:term-set prop (str/trim (target-val %))]))
-
                 :on-change    #(>evt [:typing prop])
-
                 :on-blur      #(>evt [:term-set prop (str/trim (target-val %))])
-
                 :on-focus     #(.setSelectionRange (.-target %) 0 999)}]
 
        [:datalist {:id (str prop-cap "-datalist")}
@@ -64,23 +58,18 @@
 
 (defn user-communication []
   (fn []
-    [:p (let [ue (<sub [:user-error])
-              e (<sub [:lookup-error])
-              r (<sub [:scramble?])]
-
-          (cond
-            ue ue
-            e (str "The FlexiScram authority is unavailable: " e)
-
-            r (case r
-                :undecided ""
-                :ok "You win!"
-                :ng "Bad luck!")
-
-            :default ""))]))
+    [:p (or
+          (<sub [:user-error])
+          (when-let [e (<sub [:lookup-error])]
+            (str "The FlexiScram authority is unavailable: " e))
+          (case (<sub [:scramble?])
+            :undecided ""
+            :ok "You win!"
+            :ng "Bad luck!"
+            ;; falling thru would actually signify a bug
+            ""))]))
 
 (defn scramblep-check-button []
-  ;; todo check for missing param and reject
   (fn []
     [:button {:style {:font-size "1em"
                       :margin "12px 0 0 24px"}
@@ -100,5 +89,3 @@
      [mk-flex-word :target]
      [scramblep-check-button]
      [user-communication]]))
-
-

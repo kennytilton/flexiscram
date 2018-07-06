@@ -12,15 +12,15 @@
 
 (rfr/reg-sub
   :scramble?
-  (fn [db]
+  (fn [db _]
     (:scramble? db)))
 
 (rfr/reg-sub
   :user-error
-  (fn [db]
+  (fn [db _]
     (:user-error db)))
 
 (rfr/reg-sub
   :lookup-error
-  (fn [db]
+  (fn [db _]
     (:lookup-error db)))

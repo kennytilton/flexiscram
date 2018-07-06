@@ -11,21 +11,6 @@
 (defn body->map [response]
   (parse-string (:body response) true))
 
-(deftest test-app-mini
-  ;;
-  ;; we have implemented an API in which the response will contain
-  ;; the queried params and a :result key bound to true or false,
-  ;; and in which it is an error to omit :source or :target params
-  ;; or for them to violate the a-z limitation.
-  ;;
-  (testing "bad request no target"
-    (let [response (app
-                     (mock/request :get "/scramblep"
-                       {:source "booya"}))]
-      (prn :response response)
-      (is (= (:status response) Response-OK))
-      (is (= (:usageError (body->map response)) "Source and target both required.")))))
-
 (deftest test-app
   ;;
   ;; we have implemented an API in which the response will contain
