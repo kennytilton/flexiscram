@@ -25,20 +25,17 @@
 
 (defn mk-flex-word [prop autofocus?]
   (let [prop-cap (str/capitalize (name prop))]
-    (fn [prop]
-      [:div {:style {:color       "#000"
-                     :margin      "0 9px 0 0"
-                     ;:display     "flex"
-                     ;:flex-wrap   "wrap"
-                     ;:align-items "center"
-                     }}
+    (prn :pcap prop-cap)
 
+    (fn [prop]
+      (prn :prop prop)
+      [:div {:style {:color       "#000"
+                     :margin      "0 9px 0 0"}}
 
        [:label {:for   prop
-                :style {:width "96px"
-                        :color (if (<sub [:prop-error prop])
-                                 "red" "black")}}
-        (str/capitalize (name prop))]
+                :style {:display :inline-block
+                        :min-width "96px"}}
+        prop-cap]
        [:input {:id           prop
                 :auto-focus   autofocus?
 
@@ -64,54 +61,32 @@
        [:datalist {:id (str prop-cap "-datalist")}
         (map (fn [h]
                ^{:key h} [:option {:value h}])
-          (<sub [:prop-history prop]))]
-       [:p {:style {:min-height  "1.5em"
-                    :display     "block"
-                    :margin-left "24px"}}
-        (when-let [error (<sub [:prop-error prop])]
-          (do (prn :errrr error)
-              (str "Hmmm... " error))
-          )]])))
+          (<sub [:prop-history prop]))]])))
 
 (defn user-communication []
   (fn []
-    [:p (let [g (<sub [:prop-term :target])
-              ge (<sub [:prop-error :target])
-              s (<sub [:prop-term :source])
-              se (<sub [:prop-error :source])
+    [:p (let [ue (<sub [:user-error])
               e (<sub [:lookup-error])
               r (<sub [:scramble?])]
 
           (cond
+            ue ue
             e (str "Ugh. FlexiScram authority is unavailable: " e)
 
-            ;se "Ok, let's fix that source"
-            ;(str/blank? s) "First we need a source rack..."
-
-            ;ge "Gotta fix that target syntax!"
-            ;(str/blank? g) "Great source. Now try to find a word in there..."
-
             r (case r
-                :undecided "..."
-                true "You win!"
-                "Bad luck!")
+                :undecided ""
+                :ok "You win!"
+                :ng "Bad luck!")
 
-            :default "nada"
-            #_
-            (case r
-              :undecided "Take your time. Hit 'Enter' when you are sure..."
-              true "You win!"
-              "Bad luck!")))]))
+            :default ""))]))
 
 (defn scramblep-check-button []
+  ;; todo check for missing param and reject
   (fn []
-    (when true ;; (<sub [:inputs-ready?])
-
-      [:button {:style {:font-size "1em"
-                        :margin "12px 0 0 24px"}
-                ;; :disabled (not (<sub [:inputs-ready?]))
-                :on-click #(>evt [:scramble?])}
-       "Check My Work"])))
+    [:button {:style {:font-size "1em"
+                      :margin "12px 0 0 24px"}
+              :on-click #(>evt [:scramble?])}
+     "Check My Work"]))
 
 (defn main-panel []
   (fn []

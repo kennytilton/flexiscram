@@ -4,15 +4,11 @@
 
 (rfr/reg-sub :prop-term
   (fn [db [_ prop]]
-    (get-in db [prop :term])))
+    (prop db)))
 
 (rfr/reg-sub :prop-history
   (fn [db [_ prop]]
     (get-in db [:history prop])))
-
-(rfr/reg-sub :prop-error
-  (fn [db [_ prop]]
-    (get-in db [prop :error])))
 
 (rfr/reg-sub
   :scramble?
@@ -20,9 +16,9 @@
     (:scramble? db)))
 
 (rfr/reg-sub
-  :inputs-ready?
+  :user-error
   (fn [db]
-    (:inputs-ready? db)))
+    (:user-error db)))
 
 (rfr/reg-sub
   :lookup-error

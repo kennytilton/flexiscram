@@ -2,17 +2,16 @@
 
 (def default-db
 
-  {:source {:term  ""
-            :error nil}
+  {:source nil
 
-   :target {:term  ""
-            :error nil}
+   :target nil
 
-   ;; we invert the relation for history because
-   ;; the app seems to prefer that organization
    :history {:source #{}
              :target #{}}
 
-   :inputs-ready? false
-   :scramble? :undecided})
+   :scramble? :undecided
+
+   :user-error nil
+
+   :lookup-error nil})
 
