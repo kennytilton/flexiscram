@@ -23,14 +23,13 @@
 (def <sub (comp deref rfr/subscribe))
 (def >evt rfr/dispatch)
 
+;; --- the components ------------------------------
+
 (defn mk-flex-word [prop autofocus?]
   (let [prop-cap (str/capitalize (name prop))]
-    (prn :pcap prop-cap)
-
     (fn [prop]
-      (prn :prop prop)
       [:div {:style {:color       "#000"
-                     :margin      "0 9px 0 0"}}
+                     :margin      "9px 0 0 0"}}
 
        [:label {:for   prop
                 :style {:display :inline-block
@@ -43,7 +42,7 @@
                                :font-size "1em"
                                :height    "1em"}
 
-                :placeholder  (str prop-cap " term")
+                :placeholder  "letters a-z"
 
                 :defaultValue (<sub [:prop-term prop])
 
@@ -71,7 +70,7 @@
 
           (cond
             ue ue
-            e (str "Ugh. FlexiScram authority is unavailable: " e)
+            e (str "The FlexiScram authority is unavailable: " e)
 
             r (case r
                 :undecided ""
@@ -88,13 +87,15 @@
               :on-click #(>evt [:scramble?])}
      "Check My Work"]))
 
+;; -- the app itself --------------------------------------
+
 (defn main-panel []
   (fn []
     [:div {:style {:font-size "1.5em"
                    :padding   "48px"}}
      [:h1 "FlexiScram" (unesc "&trade;")]
      [:p "Your mission: enter two purely lowercase alpha terms such that the target
-       can be built from the source without reusing the same occurrence. Think Scrabble rack and playable word."]
+       can be built from the source without reusing the same occurrence. Think Scrabble rack and non-existent word."]
      [mk-flex-word :source true]
      [mk-flex-word :target]
      [scramblep-check-button]
