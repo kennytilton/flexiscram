@@ -1,10 +1,11 @@
-(ns flexiana-spa.core
+(ns flexiscram-spa.core
   (:require
    [reagent.core :as reagent]
    [re-frame.core :as re-frame]
-   [flexiana-spa.events :as events]
-   [flexiana-spa.views :as views]
-   [flexiana-spa.config :as config]))
+   [flexiscram-spa.events :as events]
+   [flexiscram-spa.views :as views]
+   [flexiscram-spa.config :as config]
+   ))
 
 
 (defn dev-setup []

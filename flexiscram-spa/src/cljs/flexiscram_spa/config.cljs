@@ -1,4 +1,4 @@
-(ns flexiana-spa.config)
+(ns flexiscram-spa.config)
 
 (def debug?
   ^boolean goog.DEBUG)

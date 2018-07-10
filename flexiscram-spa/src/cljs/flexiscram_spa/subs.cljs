@@ -1,14 +1,14 @@
-(ns flexiana-spa.subs
+(ns flexiscram-spa.subs
   (:require
-   [re-frame.core :as rfr]))
+    [re-frame.core :as rfr]))
 
 (rfr/reg-sub :prop-term
-  (fn [db [_ prop]]
-    (prop db)))
+             (fn [db [_ prop]]
+               (prop db)))
 
 (rfr/reg-sub :prop-history
-  (fn [db [_ prop]]
-    (get-in db [:history prop])))
+             (fn [db [_ prop]]
+               (get-in db [:history prop])))
 
 (rfr/reg-sub
   :scramble?

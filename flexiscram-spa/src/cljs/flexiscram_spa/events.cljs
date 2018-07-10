@@ -1,13 +1,13 @@
-(ns flexiana-spa.events
+(ns flexiscram-spa.events
   (:require
     [clojure.string :as str]
     [cljs.pprint :as pp]
 
-    [re-frame.core :refer :all]
+    [re-frame.core :refer [reg-event-db reg-event-fx]]
     [ajax.core :as ajax]
     [day8.re-frame.http-fx]
 
-    [flexiana-spa.db :as db]))
+    [flexiscram-spa.db :as db]))
 
 (reg-event-db
   ::initialize-db
@@ -75,7 +75,7 @@
       (assoc db :user-error ue
                 :lookup-error nil)
       (assoc db :scramble? (if (:result result) :ok :ng)
-              :lookup-error nil))))
+                :lookup-error nil))))
 
 (reg-event-db
   :scramble-http-failure

@@ -1,4 +1,4 @@
-(ns flexiana-spa.db)
+(ns flexiscram-spa.db)
 
 (def default-db
 
@@ -14,4 +14,3 @@
    :user-error nil
 
    :lookup-error nil})
-

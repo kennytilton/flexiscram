@@ -1,8 +1,8 @@
-(ns flexiana-spa.views
+(ns flexiscram-spa.views
   (:require
     [goog.string :as gs]
     [re-frame.core :as rfr]
-    [flexiana-spa.subs :as subs]
+    [flexiscram-spa.subs :as subs]
     [clojure.string :as str]
     [cljs.pprint :as pp]))
 
@@ -54,7 +54,7 @@
        [:datalist {:id (str prop-cap "-datalist")}
         (map (fn [h]
                ^{:key h} [:option {:value h}])
-          (<sub [:prop-history prop]))]])))
+             (<sub [:prop-history prop]))]])))
 
 (defn user-communication []
   (fn []
