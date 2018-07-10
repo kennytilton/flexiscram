@@ -1,4 +1,4 @@
-(defproject flexiana-spa "0.1.0-SNAPSHOT"
+(defproject flexiscram-spa "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.10.238"]
                  [reagent "0.7.0"]
@@ -27,8 +27,8 @@
   {:builds
    [{:id           "dev"
      :source-paths ["src/cljs"]
-     :figwheel     {:on-jsload "flexiana-spa.core/mount-root"}
-     :compiler     {:main                 flexiana-spa.core
+     :figwheel     {:on-jsload "flexiscram-spa.core/mount-root"}
+     :compiler     {:main                 flexiscram-spa.core
                     :output-to            "resources/public/js/compiled/app.js"
                     :output-dir           "resources/public/js/compiled/out"
                     :asset-path           "js/compiled/out"
@@ -39,7 +39,7 @@
 
     {:id           "min"
      :source-paths ["src/cljs"]
-     :compiler     {:main            flexiana-spa.core
+     :compiler     {:main            flexiscram-spa.core
                     :output-to       "resources/public/js/compiled/app.js"
                     :optimizations   :advanced
                     :closure-defines {goog.DEBUG false}

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/flexiana.iml" filepath="$PROJECT_DIR$/flexiana.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flexiscram-spa.iml" filepath="$PROJECT_DIR$/flexiscram-spa.iml" />
     </modules>
   </component>
 </project>
