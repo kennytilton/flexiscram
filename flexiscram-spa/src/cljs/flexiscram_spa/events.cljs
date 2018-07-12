@@ -64,13 +64,15 @@
           {:db         db
            :http-xhrio {:method          :get
                         :uri             uri
-                        :response-format (ajax/json-response-format {:keywords? true})
+                        :response-format (ajax/ring-response-format)
+                        ;(ajax/json-response-format {:keywords? true})
                         :on-success      [:scramble-check]
                         :on-failure      [:scramble-http-failure]}})))))
 
 (reg-event-db
   :scramble-check
   (fn [db [_ result]]
+    (prn :raw-result result)
     (if-let [ue (:usageError result)]
       (assoc db :user-error ue
                 :lookup-error nil)
@@ -80,5 +82,6 @@
 (reg-event-db
   :scramble-http-failure
   (fn [db [_ result]]
+    (prn :fail-raw result)
     (assoc db :usage-error nil
               :lookup-error (:status-text result))))
