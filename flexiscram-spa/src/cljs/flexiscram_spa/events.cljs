@@ -17,7 +17,7 @@
 (reg-event-db
   :typing
 
-  ;; we want to clear prior user communications in
+  ;; event clears prior user communications in
   ;; a timely fashion, such as an error message once
   ;; they have begun to fix it.
 
@@ -69,19 +69,22 @@
                         :on-success      [:scramble-check]
                         :on-failure      [:scramble-http-failure]}})))))
 
+(defn response->body [response]
+  (js->clj (.parse js/JSON (:body response))
+           :keywordize-keys true))
+
 (reg-event-db
   :scramble-check
-  (fn [db [_ result]]
-    (prn :raw-result result)
-    (if-let [ue (:usageError result)]
-      (assoc db :user-error ue
-                :lookup-error nil)
-      (assoc db :scramble? (if (:result result) :ok :ng)
+  (fn [db [_ response]]
+    (let [body (response->body response)]
+      (assoc db :scramble? (if (:result body) :ok :ng)
                 :lookup-error nil))))
 
 (reg-event-db
   :scramble-http-failure
-  (fn [db [_ result]]
-    (prn :fail-raw result)
-    (assoc db :usage-error nil
-              :lookup-error (:status-text result))))
+  (fn [db [_ {:keys [response] :as full}]]
+    (case (:status response)
+      422 (assoc db :user-error (:usageError (response->body response))
+                    :lookup-error nil)
+      (assoc db :usageError nil
+                :lookup-error (:status-text full)))))
