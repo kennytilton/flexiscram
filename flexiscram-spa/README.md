@@ -1,10 +1,11 @@
 # flexiscram-spa
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+A [re-frame](https://github.com/Day8/re-frame) application designed to demonstrate re-frame.
 
 ## Development Mode
 
 ### Run application:
+Make sure the FlexiScram service from the sibling directory/project is running, then...
 
 ```
 lein clean
