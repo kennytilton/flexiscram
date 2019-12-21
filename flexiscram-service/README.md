@@ -1,6 +1,6 @@
-# flexiscram
+# FlexiScram&trade; Service
 
-FIXME
+This is the web service supporting the FlexiScram SPA in a sibling directory/project.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 To start a web server for the application, run:
 
-    lein ring server
+    lein ring [server | server-headless]
 
 ## License
 
-Copyright © 2018 FIXME
+MIT license. Copyright © 2018 Kenneth Tilton
