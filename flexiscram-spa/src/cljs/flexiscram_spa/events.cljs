@@ -60,14 +60,13 @@
         {:db (assoc db :user-error "Please provide both source and target for us to check your work.")}
 
         :default
-        (let [uri (gen-scramblep-uri source target)]
-          {:db         db
-           :http-xhrio {:method          :get
-                        :uri             uri
-                        :response-format (ajax/ring-response-format)
-                        ;(ajax/json-response-format {:keywords? true})
-                        :on-success      [:scramble-check]
-                        :on-failure      [:scramble-http-failure]}})))))
+        {:db         db
+         :http-xhrio {:method          :get
+                      :uri             (gen-scramblep-uri source target)
+                      :response-format (ajax/ring-response-format)
+                      ;(ajax/json-response-format {:keywords? true})
+                      :on-success      [:scramble-check]
+                      :on-failure      [:scramble-http-failure]}}))))
 
 (defn response->body [response]
   (js->clj (.parse js/JSON (:body response))

@@ -14,7 +14,7 @@
       <file leaf-file-name="scramble_test.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
+            <state relative-caret-position="187">
               <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
@@ -34,51 +34,8 @@
       <file leaf-file-name="scramble.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leiningen.core.classpath.extract-native-dependencies" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1581">
+              <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -87,8 +44,18 @@
       <file leaf-file-name="handler_test.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -100,9 +67,16 @@
     <findStrings>
       <find>flexiana</find>
       <find>alpha-freq</find>
+      <find>aaa</find>
+      <find>grouped-distinct-by-optimizing</find>
+      <find>:browser-id</find>
     </findStrings>
     <replaceStrings>
       <replace>flexiscram</replace>
+      <replace>bbb</replace>
+      <replace>distinct-by-group</replace>
+      <replace>[:latest]</replace>
+      <replace>[:earliest]</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/test</dir>
@@ -119,19 +93,21 @@
       <list>
         <option value="$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies" />
         <option value="$PROJECT_DIR$/src/flexiscram/scramble.clj" />
+        <option value="$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties" />
+        <option value="$PROJECT_DIR$/project.clj" />
         <option value="$PROJECT_DIR$/test/flexiscram/handler_test.clj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="80" />
-    <option name="y" value="170" />
+    <option name="x" value="137" />
+    <option name="y" value="136" />
     <option name="width" value="1455" />
-    <option name="height" value="862" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
+      <flattenPackages ProjectPane="true" />
       <showMembers />
       <showModules />
       <showLibraryContents />
@@ -144,10 +120,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +175,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +188,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1531437960355">{:repl-history {:ide [], :local [{:command &quot;(merge {:a {:b 0}}{:a {:b 2}})&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(merge {:a {:b 0}}{:a {:c 2}})&quot;, :offset 30, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1532147004827">{:repl-history {:ide [], :local [{:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [cby values]\n                     (first (sort-by minimize vals))) gs)]\n    (prn ready)\n    nil))&quot;, :offset 226, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize vals))) gs)]\n    (prn ready)\n    nil))&quot;, :offset 228, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn ready)\n    nil))&quot;, :offset 230, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(def ^:private browsers\n  {\&quot;aaa-1\&quot; {:br-id \&quot;aaa-1\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 42}\n   \&quot;aaa-2\&quot; {:br-id \&quot;aaa-2\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 0}\n   \&quot;bbb-1\&quot; {:br-id \&quot;bbb-1\&quot;\n            :url \&quot;bbb.com\&quot;\n            :timestamp 42}\n   \&quot;bbb-2\&quot; {:br-id \&quot;bbb-2\&quot;\n            :url \&quot;bbb.com\&quot;\n            :timestamp 99}})&quot;, :offset 348, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(def ^:private browsers\n  {\&quot;aaa-1\&quot; {:br-id \&quot;aaa-1\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 42}\n   \&quot;aaa-2\&quot; {:br-id \&quot;aaa-2\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 0}\n   ;\&quot;bbb-1\&quot; {:br-id \&quot;bbb-1\&quot;\n   ;         :url \&quot;bbb.com\&quot;\n   ;         :timestamp 42}\n   ;\&quot;bbb-2\&quot; {:br-id \&quot;bbb-2\&quot;\n   ;         :url \&quot;bbb.com\&quot;\n   ;         :timestamp 99}\n   })&quot;, :offset 358, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready)\n    (into {}\n          (map #([(id %) %]) ready))))&quot;, :offset 279, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready)\n    (map #([(id %) %]) ready)))&quot;, :offset 259, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (map (fn [m] [(get m id) m]) ready)))&quot;, :offset 272, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (map (fn [m] [(id m) m]) ready)))&quot;, :offset 268, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn (map (fn [m] [(id m) m]) ready))))&quot;, :offset 274, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn (into {} (map (fn [m] [(id m) m]) ready)))))&quot;, :offset 284, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn (into {} (map #([(id m) m]) ready)))\n    (prn (into {} (map (fn [m] [(id m) m]) ready)))))&quot;, :offset 330, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn (into {} (map #([(id %) %]) ready)))\n    (prn (into {} (map (fn [m] [(id m) m]) ready)))))&quot;, :offset 330, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn (into {} (map #([(get % id) %]) ready)))\n    (prn (into {} (map (fn [m] [(id m) m]) ready)))))&quot;, :offset 334, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    \n    (prn (into {} (map (fn [m] [(id m) m]) ready)))))&quot;, :offset 289, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(prn (distinct-by-minimizing browsers\n                                :br-id :url :timestamp))&quot;, :offset 94, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n\n    (into {} (map (fn [m] [(id m) m]) ready))))&quot;, :offset 279, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id compare minimize]\n  (let [bs (vals m)\n        gs (group-by compare bs)\n        ready (map (fn [[cby values]]\n                     (first (sort-by minimize values))) gs)]\n    (prn :ready ready id)\n    (prn :set (into {} (map (fn [m] [(id m) m]) ready)))\n\n    (into {} (map (fn [m] [(id m) m]) ready))))&quot;, :offset 336, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(def ^:private browsers\n  {\&quot;aaa-1\&quot; {:br-id \&quot;aaa-1\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 42}\n   \&quot;aaa-2\&quot; {:br-id \&quot;aaa-2\&quot;\n            :url \&quot;aaa.com\&quot;\n            :timestamp 0}\n   \&quot;bbb-1\&quot; {:br-id \&quot;bbb-1\&quot;\n            :url \&quot;bbb.com\&quot;\n            :timestamp 42}\n   \&quot;bbb-2\&quot; {:br-id \&quot;bbb-2\&quot;\n            :url \&quot;bbb.com\&quot;\n            :timestamp 99}\n   })&quot;, :offset 352, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id grouper minimize]\n  (-&gt;&gt; m\n       vals\n       (group-by grouper)\n       vals\n       (map (fn [[cby values]]\n              (first (sort-by minimize values))))\n       (into {} (map (fn [m] [(id m) m]) ready))))&quot;, :offset 243, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id grouper minimize]\n  (-&gt;&gt; m\n       vals\n       (group-by grouper)\n       vals\n       (map (fn [[cby values]]\n              (first (sort-by minimize values))))\n       (into {} (map (fn [m] [(id m) m])))))&quot;, :offset 237, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id grouper minimize]\n  (-&gt;&gt; m\n       vals\n       (group-by grouper)\n       vals\n       (map (fn [values]\n              (first (sort-by minimize values))))\n       (into {} (map (fn [m] [(id m) m])))))&quot;, :offset 231, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(prn (distinct-by-minimizing browsers\n                               :br-id :url :timestamp))&quot;, :offset 93, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id grouper minimize]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [_ values]\n              (first (sort-by minimize values))))\n       (into {} (map (fn [m] [(id m) m])))))&quot;, :offset 216, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-minimizing [m id grouper minimize]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [[_ values]]\n              (first (sort-by minimize values))))\n       (into {} (map (fn [m] [(id m) m])))))&quot;, :offset 218, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn grouped-distinct-by-optimizing\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first by order &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default optimum.\&quot;\n  \n  [m id grouper optimizing ordering]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [[_ values]]\n              (first (sort-by optimizing ordering values))))\n       (into {} (map (fn [m] [(id m) m]))))\n\n  [m id grouper optimizing]\n  (distinct-by-optimizing m id grouper optimizing &gt;))&quot;, :offset 575, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn grouped-distinct-by-optimizing\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first by order &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default optimum.\&quot;\n  \n  [m id grouper optimizing ordering]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [[_ values]]\n              (first (sort-by optimizing ordering values))))\n       (into {} (map (fn [m] [(id m) m]))))\n\n  [m id grouper optimizing]\n  (grouped-distinct-by-optimizing m id grouper optimizing &gt;))&quot;, :offset 583, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 0}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 42}}\n           (grouped-distinct-by-optimizing browsers\n                                   :br-id :url :timestamp)))))&quot;, :offset 526, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn grouped-distinct-by-optimizing\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first by order &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default optimum.\&quot;\n\n  [m id grouper optimizing ordering]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [[_ values]]\n              (first (sort-by optimizing ordering values))))\n       (into {} (map (fn [m] [(id m) m]))))\n\n  [m id grouper optimizing]\n  (grouped-distinct-by-optimizing m id grouper optimizing &gt;))&quot;, :offset 581, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 0}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 42}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp)))))&quot;, :offset 491, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test-ex\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 0}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 42}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp)))))&quot;, :offset 494, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn grouped-distinct-by-optimizing\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first by order &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default optimum.\&quot;\n\n  [m id grouper optimizing]\n  (grouped-distinct-by-optimizing m id grouper optimizing &gt;)\n\n  [m id grouper optimizing ordering]\n  (-&gt;&gt; (vals m)\n       (group-by grouper)\n       (map (fn [[_ values]]\n              (first (sort-by optimizing ordering values))))\n       (into {} (map (fn [m] [(id m) m]))))\n\n  )&quot;, :offset 585, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn grouped-distinct-by-optimizing\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first by order &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default optimum.\&quot;\n\n  ([m id grouper optimizing ordering]\n   (-&gt;&gt; (vals m)\n        (group-by grouper)\n        (map (fn [[_ values]]\n               (first (sort-by optimizing ordering values))))\n        (into {} (map (fn [m] [(id m) m])))))\n\n  ([m id grouper optimizing]\n   (grouped-distinct-by-optimizing m id grouper optimizing &gt;)))&quot;, :offset 591, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test-ex\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 42}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 99}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp)))))&quot;, :offset 495, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test-ex\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-1\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 42}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-2\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 99}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp)))))&quot;, :offset 495, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test-ex\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-1\&quot; {:br-id     \&quot;aaa-1\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 42}\n            \&quot;bbb-2\&quot; {:br-id     \&quot;bbb-2\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 99}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp)))))&quot;, :offset 495, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(prn (grouped-distinct-by-optimizing browsers\n                               :br-id :url :timestamp))&quot;, :offset 101, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-minimizing-test-ex\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be maximized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-1\&quot; {:br-id     \&quot;aaa-1\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 42}\n            \&quot;bbb-2\&quot; {:br-id     \&quot;bbb-2\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 99}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp))))\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 0}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 42}}\n           (grouped-distinct-by-optimizing browsers :br-id :url :timestamp &lt;)))))&quot;, :offset 951, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(def ^:private browsers\n  {\&quot;aaa-1\&quot; {:br-id     \&quot;aaa-1\&quot;\n            :url       \&quot;aaa.com\&quot;\n            :timestamp 42}\n   \&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n            :url       \&quot;aaa.com\&quot;\n            :timestamp 0}\n   \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n            :url       \&quot;bbb.com\&quot;\n            :timestamp 42}\n   \&quot;bbb-2\&quot; {:br-id     \&quot;bbb-2\&quot;\n            :url       \&quot;bbb.com\&quot;\n            :timestamp 99}\n   \&quot;uniq-0\&quot; {:br-id     \&quot;uniq-0\&quot;\n             :url       \&quot;uniq.com\&quot;\n             :timestamp 42}\n   })&quot;, :offset 488, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-group-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be maximized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-1\&quot; {:br-id     \&quot;aaa-1\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 42}\n            \&quot;bbb-2\&quot; {:br-id     \&quot;bbb-2\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 99}\n            \&quot;uniq-0\&quot; {:br-id     \&quot;uniq-0\&quot;\n                      :url       \&quot;uniq.com\&quot;\n                      :timestamp 42}}\n           (distinct-by-group browsers :br-id :url :timestamp))))\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot; {:br-id     \&quot;aaa-2\&quot;\n                     :url       \&quot;aaa.com\&quot;\n                     :timestamp 0}\n            \&quot;bbb-1\&quot; {:br-id     \&quot;bbb-1\&quot;\n                     :url       \&quot;bbb.com\&quot;\n                     :timestamp 42}\n            \&quot;uniq-0\&quot; {:br-id     \&quot;uniq-0\&quot;\n                      :url       \&quot;uniq.com\&quot;\n                      :timestamp 42}}\n           (distinct-by-group browsers :br-id :url :timestamp &lt;)))))&quot;, :offset 1163, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(prn (distinct-by-group browsers\n                               :br-id :url :timestamp))&quot;, :offset 88, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(merge {:a {:b 0}}{:a {:b 2}})&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(merge {:a {:b 0}}{:a {:c 2}})&quot;, :offset 30, :ns &quot;user&quot;} {:command &quot;(def result {\&quot;Major\&quot; {[200 {1 5,2 6, 3 4}] [201 {1 5,2 10,4 10,6 10}]}\n             \&quot;Minor\&quot;  {[200 {1 5,2 6,3 4,4 10}] [201 {1 5,2 10,3 10}]}})&quot;, :offset 143, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn myFunction [result]\n  (let [major-data (get-in result [\&quot;Major\&quot;])\n        minor-data (get-in result [\&quot;Minor\&quot;])\n        major-only {}\n        minor-only {}]\n    (if (and (nil? major-data) (nil? minor-data))\n      result\n      ;;else\n      (do\n        (map\n          (fn [[[key value]]]\n            (if (and (contains? major-data key)\n                     (clojure.set/subset? (into #{} (get major-data key)) (into #{} value)))\n              (do\n                (prn \&quot;Disscoign something\&quot;)\n                (dissoc minor-data key)\n                (dissoc major-data key))\n              ;;else\n              (do\n                (prn \&quot;Associng something\&quot;)\n                (assoc major-only key (get major-data key))\n                (assoc minor-only key (get minor-data key)))))\n          minor-data)))))&quot;, :offset 804, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(myFunction result)&quot;, :offset 19, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(group-by\n  (fn [[k v]]\n    (get-current-url v))\n  browsers)&quot;, :offset 60, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (firat browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 132, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (first browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 132, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (first (sort-by get-current-url &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 160, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (first (sort-by :timestamp &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 155, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup (first browsers))\n       (first (sort-by :timestamp &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 189, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup (first browsers))\n       (first (sort-by [:history :timestamp] &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 200, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup (first browsers))\n       (first (sort-by #(get-in % [:history :timestamp]) &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 212, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup (second (first browsers)))\n       (first (sort-by #(get-in (second %) [:history :timestamp]) &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 230, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup (first browsers))\n       (first (sort-by #(get-in (second %) [:history :timestamp]) &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 221, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup browsers)\n       42 #_ (first (sort-by #(get-in (second %) [:history :timestamp]) &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 219, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (fn [[dup browsers]]\n       (prn dup browsers)\n       (first browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers))&quot;, :offset 158, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(into {}\n      (map (fn [[dup browsers]]\n       (prn dup browsers)\n       (first browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers)))&quot;, :offset 174, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(into {}\n      (map (fn [[dup browsers]]\n       (prn dup (sort-by (fn [[id browser]]\n                           (:timestamp)) &gt; browsers))\n       (first browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers)))&quot;, :offset 246, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(into {}\n      (map (fn [[dup browsers]]\n       (prn dup (sort-by (fn [[id browser]]\n                           (:timestamp browser)) &gt; browsers))\n       (first browsers))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers)))&quot;, :offset 254, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(into {}\n      (map (fn [[dup browsers]]\n       (prn dup (sort-by (fn [[id browser]]\n                           (:timestamp browser)) &gt; browsers))\n       (first (sort-by (fn [[id browser]]\n                         (:timestamp browser)) &gt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers)))&quot;, :offset 332, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(into {}\n      (map (fn [[dup browsers]]\n       (prn dup (sort-by (fn [[id browser]]\n                           (:timestamp browser)) &gt; browsers))\n       (first (sort-by (fn [[id browser]]\n                         (:timestamp browser)) &lt; browsers)))\n     (group-by\n       (fn [[k v]]\n         (get-current-url v))\n       browsers)))&quot;, :offset 332, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-group\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first after ordering by &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default ordering.\&quot;\n\n  ([m grouper optimizing ordering]\n   (into {}\n         (map (fn [[dup browsers]]\n                (first (sort-by (fn [[id browser]]\n                                  (optimizing browser))\n                                ordering\n                                browsers)))\n              (group-by\n                (fn [[k v]]\n                  (grouper v))\n                browsers))))\n\n  ([m id grouper optimizing]\n   (distinct-by-group m grouper optimizing &gt;)))&quot;, :offset 738, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-group\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first after ordering by &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default ordering.\&quot;\n\n  ([m grouper optimizing ordering]\n   (into {}\n         (map (fn [[dup browsers]]\n                (first (sort-by (fn [[id browser]]\n                                  (optimizing browser))\n                                ordering\n                                browsers)))\n              (group-by\n                (fn [[k v]]\n                  (grouper v))\n                browsers))))\n\n  ([m grouper optimizing]\n   (distinct-by-group m grouper optimizing &gt;)))&quot;, :offset 735, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn get-current-url [{:keys [history history-index]}]\n  (when (and history-index history)\n    (nth history history-index)))&quot;, :offset 125, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(prn (distinct-by-group browsers\n                          get-current-url :timestamp))&quot;, :offset 87, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-group-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be maximized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-1\&quot;  {:br-id         \&quot;aaa-1\&quot;\n                      :history       [\&quot;aaa.com\&quot; \&quot;https://aaa.com\&quot;]\n                      :history-index 1\n                      :timestamp     42}\n            \&quot;bbb-2\&quot;  {:br-id         \&quot;bbb-2\&quot;\n                      :history       [\&quot;https://bbb.com\&quot; \&quot;bbb.com\&quot;]\n                      :history-index 1\n                      :timestamp     99}\n            \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                      :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                      :history-index 0\n                      :timestamp     42}\n            }\n           (distinct-by-group browsers get-current-url :timestamp))))\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (is (= {\&quot;aaa-2\&quot;  {:br-id         \&quot;aaa-2\&quot;\n                      :history       [\&quot;https://aaa.com\&quot;]\n                      :history-index 0\n                      :timestamp     0}\n            \&quot;bbb-1\&quot;  {:br-id         \&quot;bbb-1\&quot;\n                      :history       [\&quot;bbb.com\&quot; \&quot;https://bbb.com\&quot;]\n                      :history-index 0\n                      :timestamp     42}\n            \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                      :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                      :history-index 0\n                      :timestamp     42}\n            }\n           (distinct-by-group browsers get-current-url :timestamp &lt;)))))&quot;, :offset 1627, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-group\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first after ordering by &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default ordering.\&quot;\n\n  ([m grouper optimizing ordering]\n   (into {}\n         (map (fn [[dup browsers]]\n                (first (sort-by (fn [[id browser]]\n                                  (optimizing browser))\n                                ordering\n                                browsers)))\n              (group-by\n                #(grouper (second %))\n                #_\n                (fn [[k v]]\n                  (grouper v))\n                browsers))))\n\n  ([m grouper optimizing]\n   (distinct-by-group m grouper optimizing &gt;)))&quot;, :offset 792, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(defn distinct-by-group\n  \&quot;First group a map's values by property &lt;grouper&gt;,\n  then select the optimal within each group as determined\n  by property &lt;optimizing&gt; taking the first after ordering by &lt;ordering&gt;.\n  We arbitrarily designate the maximum as the default ordering.\&quot;\n\n  ([m grouper optimizing ordering]\n   (into {}\n         (map (fn [[dup browsers]]\n                (first (sort-by #(optimizing (second %))\n                                #_\n                                (fn [[id browser]]\n                                  (optimizing browser))\n                                ordering\n                                browsers)))\n              (group-by\n                #(grouper (second %))\n                #_\n                (fn [[k v]]\n                  (grouper v))\n                browsers))))\n\n  ([m grouper optimizing]\n   (distinct-by-group m grouper optimizing &gt;)))&quot;, :offset 884, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(distinct-by-group browsers get-current-url :timestamp)&quot;, :offset 55, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map #((comp :timing second)))&quot;, :offset 30, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map #(comp :timing second)\n  (distinct-by-group browsers get-current-url :timestamp))&quot;, :offset 86, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (comp :timing second)\n  (distinct-by-group browsers get-current-url :timestamp))&quot;, :offset 85, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(set (map (comp :timing second)\n  (distinct-by-group browsers get-current-url :timestamp)))&quot;, :offset 91, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(set (map (comp :timing second)\n          (distinct-by-group browsers get-current-url :timestamp &lt;)))&quot;, :offset 101, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(def ^:private browsers\n  {\&quot;aaa-1\&quot;   {:br-id         \&quot;aaa-1\&quot;\n              :history       [\&quot;aaa.com\&quot; \&quot;https://aaa.com\&quot;]\n              :history-index 1\n              :timing        [:latest]\n              :timestamp     42}\n   \&quot;aaa-2\&quot;   {:br-id         \&quot;aaa-2\&quot;\n              :history       [\&quot;https://aaa.com\&quot;]\n              :history-index 0\n              :timing        [:earliest]\n              :timestamp     0}\n\n   \&quot;bbb-1\&quot;   {:br-id         \&quot;bbb-1\&quot;\n              :history       [\&quot;bbb.com\&quot; \&quot;https://bbb.com\&quot;]\n              :history-index 0\n              :timing        [:earliest]\n              :timestamp     42}\n   \&quot;bbb-mid\&quot; {:br-id         \&quot;bbb-mid\&quot;\n              :history       [\&quot;http://bbb.com\&quot; \&quot;bbb.com\&quot; \&quot;https://bbb.com\&quot;]\n              :history-index 1\n              :timing        [:middle]\n              :timestamp     67}\n   \&quot;bbb-2\&quot;   {:br-id         \&quot;bbb-2\&quot;\n              :history       [\&quot;https://bbb.com\&quot; \&quot;bbb.com\&quot;]\n              :history-index 1\n              :timing        [:latest]\n              :timestamp     99}\n\n   \&quot;uniq-0\&quot;  {:br-id         \&quot;uniq-0\&quot;\n              :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n              :history-index 0\n              :timing        [:earliest :latest]\n              :timestamp     42}})&quot;, :offset 1246, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(map (comp :timing second)\n     (distinct-by-group browsers get-current-url :timestamp &lt;))&quot;, :offset 90, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(every? #(some #{:earliest})\n(map (comp :timing second)\n     (distinct-by-group browsers get-current-url :timestamp &lt;)))&quot;, :offset 120, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(every? #(some #{:earliest} %)\n(map (comp :timing second)\n     (distinct-by-group browsers get-current-url :timestamp &lt;)))&quot;, :offset 122, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-group-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be maximized when selecting amongst the dups\&quot;\n    (let [result (distinct-by-group browsers get-current-url :timestamp)]\n      (is (every? #(some #{:latest} %)\n                  (map (comp :timing second) result)))\n      #_(is (= {\&quot;aaa-1\&quot;  {:br-id         \&quot;aaa-1\&quot;\n                          :history       [\&quot;aaa.com\&quot; \&quot;https://aaa.com\&quot;]\n                          :history-index 1\n                          :timestamp     42}\n                \&quot;bbb-2\&quot;  {:br-id         \&quot;bbb-2\&quot;\n                          :history       [\&quot;https://bbb.com\&quot; \&quot;bbb.com\&quot;]\n                          :history-index 1\n                          :timestamp     99}\n                \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                          :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                }\n               (distinct-by-group browsers get-current-url :timestamp)))))\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (let [result (distinct-by-group browsers get-current-url :timestamp &lt;)]\n      (is (every? #(some #{:earliest} %)\n                  (map (comp :timing second) result)))\n      #_(is (= {\&quot;aaa-2\&quot;  {:br-id         \&quot;aaa-2\&quot;\n                          :history       [\&quot;https://aaa.com\&quot;]\n                          :history-index 0\n                          :timestamp     0}\n                \&quot;bbb-1\&quot;  {:br-id         \&quot;bbb-1\&quot;\n                          :history       [\&quot;bbb.com\&quot; \&quot;https://bbb.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                          :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                }\n               (distinct-by-group browsers get-current-url :timestamp &lt;))))))&quot;, :offset 2081, :ns &quot;flexiscram.handler-test&quot;} {:command &quot;(deftest distinct-by-group-test\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be maximized when selecting amongst the dups\&quot;\n    (let [result (distinct-by-group browsers get-current-url :timestamp)]\n      (is (every? #(some #{:latest} %)\n                  (map (comp :timing second) result)))\n      \n      (is (= (get browsers \&quot;aaa-1\&quot;)\n             (get result \&quot;aaa-1\&quot;)))\n      #_(is (= {\&quot;aaa-1\&quot;  {:br-id         \&quot;aaa-1\&quot;\n                          :history       [\&quot;aaa.com\&quot; \&quot;https://aaa.com\&quot;]\n                          :history-index 1\n                          :timestamp     42}\n                \&quot;bbb-2\&quot;  {:br-id         \&quot;bbb-2\&quot;\n                          :history       [\&quot;https://bbb.com\&quot; \&quot;bbb.com\&quot;]\n                          :history-index 1\n                          :timestamp     99}\n                \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                          :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                }\n               (distinct-by-group browsers get-current-url :timestamp)))))\n  (testing \&quot;deduplicate map given key to identify dups and a key to identify\n  a property to be minimized when selecting amongst the dups\&quot;\n    (let [result (distinct-by-group browsers get-current-url :timestamp &lt;)]\n      (is (every? #(some #{:earliest} %)\n                  (map (comp :timing second) result)))\n      #_(is (= {\&quot;aaa-2\&quot;  {:br-id         \&quot;aaa-2\&quot;\n                          :history       [\&quot;https://aaa.com\&quot;]\n                          :history-index 0\n                          :timestamp     0}\n                \&quot;bbb-1\&quot;  {:br-id         \&quot;bbb-1\&quot;\n                          :history       [\&quot;bbb.com\&quot; \&quot;https://bbb.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                \&quot;uniq-0\&quot; {:br-id         \&quot;uniq-0\&quot;\n                          :history       [\&quot;https://uniq.com\&quot; \&quot;uniq.com\&quot;]\n                          :history-index 0\n                          :timestamp     42}\n                }\n               (distinct-by-group browsers get-current-url :timestamp &lt;))))))&quot;, :offset 2160, :ns &quot;flexiscram.handler-test&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -330,34 +306,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="80" y="170" width="1455" height="862" extended-state="0" />
+    <frame x="137" y="136" width="1455" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.371134" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36907217" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996207" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20893471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -368,6 +344,188 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2159">
+          <caret line="127" column="47" lean-forward="false" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -389,7 +547,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -399,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -407,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -415,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +618,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -474,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -498,55 +649,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/flexiana/handler_test.clj" />
     <entry file="file://$PROJECT_DIR$/test/flexiana/handler_test.clj" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/flexiscram/handler.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -555,18 +662,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/flexiscram/scramble_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/stale/leiningen.core.classpath.extract-native-dependencies">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/META-INF/maven/flexiscram/flexiscram/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/flexiscram/scramble.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="80" column="30" lean-forward="false" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="1581">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1601" column="10" lean-forward="false" selection-start-line="1601" selection-start-column="10" selection-end-line="1601" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ring/ring-core/1.5.0/ring-core-1.5.0.jar!/ring/middleware/params.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/flexiscram/handler_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
           <folding />
         </state>
       </provider>

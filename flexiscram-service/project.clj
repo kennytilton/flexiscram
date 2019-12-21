@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [compojure "1.5.1"]
                  [cheshire "5.8.0"]
+                 [com.cemerick/url "0.1.1"]
                  [ring/ring-defaults "0.2.1"]
                  [ring/ring-json "0.4.0"]]
 

@@ -96,7 +96,6 @@
     ;; todo log/report error usefully
     (catch Exception e
       {:status  500
-       :headers {"Content-Type"                 "text/html"
-                 "Access-Control-Allow-Headers" "Content-Type"
-                 "Access-Control-Allow-Origin"  "*"}
-       :body    "Something 500 happened."})))
+       :headers (merge CORS-HEADERS
+                       {"Content-Type" "text/html"})
+       :body    "<h1>Something 500 happened.</h1>"})))
